@@ -1,0 +1,109 @@
+[Root]
+Most Recent Package=Inventory System v1.0
+
+
+[Package|Inventory System v1.0|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\IT_DEPT\Desktop\Inventory System\Package
+
+[Package|Inventory System v1.0|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Inventory System v1.0|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Inventory System v1.0|Files Found]
+
+[Package|Inventory System v1.0|Files Released]
+
+[Package|Inventory System v1.0|Missing Dependency Information]
+
+[Package|Inventory System v1.0|Out-of-Date Dependency Information]
+
+[Package|Inventory System v1.0|Files Added]
+
+[Package|Inventory System v1.0|Files Removed]
+
+[Package|Inventory System v1.0|Files In Project]
+C:\Documents and Settings\IT_DEPT\Desktop\Inventory System\Inventory.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\COMCTL32.OCX=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\msflxgrd.ocx=Yes
+C:\WINDOWS\system32\DBGRID32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Inventory System v1.0|Configure Registry Files]
+Applicable=No
+
+[Package|Inventory System v1.0|Configure Remote Servers]
+Applicable=No
+
+[Package|Inventory System v1.0|Install Locations]
+C:\Documents and Settings\IT_DEPT\Desktop\Inventory System\Inventory.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\DBGRID32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Inventory System v1.0|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\IT_DEPT\Desktop\Inventory System\Inventory.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+
+[Package|Inventory System v1.0|Distribution]
+Type=single
+Size=
+Title=Inventory
+
+[Package|Inventory System v1.0|IconGroups]
+Group0=Inventory
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Inventory System v1.0|Inventory]
+Icon1=Inventory.exe
+Title1=Inventory
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Inventory System v1.0|Package]
+PackageFolder=C:\Documents and Settings\IT_DEPT\Desktop\Inventory System\Package
+ProjectFolder=C:\Documents and Settings\IT_DEPT\Desktop\Inventory System
+ServerSideCab=
+File1=C:\Documents and Settings\IT_DEPT\Desktop\Inventory System\Package\setup.exe
+File2=C:\Documents and Settings\IT_DEPT\Desktop\Inventory System\Package\Setup.Lst
+File3=C:\Documents and Settings\IT_DEPT\Desktop\Inventory System\Package\Inventory.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
